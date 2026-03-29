@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblUsuario = new Label();
+            lblEmail = new Label();
             lblSenha = new Label();
             lnkCadastrar = new LinkLabel();
             txtEmail = new TextBox();
@@ -36,14 +36,14 @@
             btnLogin = new Button();
             SuspendLayout();
             // 
-            // lblUsuario
+            // lblEmail
             // 
-            lblUsuario.AutoSize = true;
-            lblUsuario.Location = new Point(115, 54);
-            lblUsuario.Name = "lblUsuario";
-            lblUsuario.Size = new Size(47, 15);
-            lblUsuario.TabIndex = 0;
-            lblUsuario.Text = "Usuario";
+            lblEmail.AutoSize = true;
+            lblEmail.Location = new Point(115, 54);
+            lblEmail.Name = "lblEmail";
+            lblEmail.Size = new Size(36, 15);
+            lblEmail.TabIndex = 0;
+            lblEmail.Text = "Email";
             // 
             // lblSenha
             // 
@@ -99,7 +99,7 @@
             Controls.Add(txtEmail);
             Controls.Add(lnkCadastrar);
             Controls.Add(lblSenha);
-            Controls.Add(lblUsuario);
+            Controls.Add(lblEmail);
             Name = "Login";
             Text = "Login";
             ResumeLayout(false);
@@ -108,7 +108,7 @@
 
         #endregion
 
-        private Label lblUsuario;
+        private Label lblEmail;
         private Label lblSenha;
         private LinkLabel lnkCadastrar;
         private TextBox txtEmail;
